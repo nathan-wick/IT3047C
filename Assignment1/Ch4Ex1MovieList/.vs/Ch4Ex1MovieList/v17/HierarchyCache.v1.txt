@@ -3,9 +3,9 @@ i:{00000000-0000-0000-0000-000000000000}:Ch4Ex1MovieList.sln
 ++MovieList
 i:{00000000-0000-0000-0000-000000000000}:MovieList
 ++Connected Services 
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:>195
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:>423
 ++Dependencies
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:>194
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:>422
 ++Properties
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\properties\
 ++wwwroot
@@ -14,10 +14,20 @@ i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047c
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\controllers\
 ++HomeController.cs
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\controllers\homecontroller.cs
+++MovieController.cs
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\controllers\moviecontroller.cs
+++Migrations
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\migrations\
+++20220211184848_Initial.cs
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\migrations\20220211184848_initial.cs
+++MovieContextModelSnapshot.cs
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\migrations\moviecontextmodelsnapshot.cs
 ++Models
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\models\
 ++ErrorViewModel.cs
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\models\errorviewmodel.cs
+++Genre.cs
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\models\genre.cs
 ++Movie.cs
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\models\movie.cs
 ++MovieContext.cs
@@ -26,6 +36,15 @@ i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047c
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\views\
 ++Home
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\views\home\
+++Index.cshtml
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\views\home\index.cshtml
+++Privacy.cshtml
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\views\home\privacy.cshtml
+++Movies
+++Delete.cshtml
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\views\movie\delete.cshtml
+++Edit.cshtml
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\views\movie\edit.cshtml
 ++Shared
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\views\shared\
 ++_Layout.cshtml
@@ -42,8 +61,10 @@ i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047c
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\appsettings.json
 ++Program.cs
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\program.cs
+++Startup.cs
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\startup.cs
 ++No service dependencies discovered
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:>196
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:>424
 ++Analyzers
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:analyzers
 ++Frameworks
@@ -62,46 +83,28 @@ i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047c
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\wwwroot\lib\
 ++favicon.ico
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\wwwroot\favicon.ico
-++Index.cshtml
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\views\home\index.cshtml
-++Privacy.cshtml
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\views\home\privacy.cshtml
+++20220211184848_Initial.Designer.cs
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\migrations\20220211184848_initial.designer.cs
 ++_Layout.cshtml.css
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\views\shared\_layout.cshtml.css
 ++appsettings.Development.json
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\appsettings.development.json
 ++Microsoft.AspNetCore.Analyzers
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
-++Microsoft.AspNetCore.App.Analyzers
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-++Microsoft.AspNetCore.App.CodeFixes
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
 ++Microsoft.AspNetCore.Components.Analyzers
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
 ++Microsoft.AspNetCore.Mvc.Analyzers
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
-++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
-++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-++Microsoft.CodeAnalysis.NetAnalyzers
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 ++Microsoft.EntityFrameworkCore.Analyzers
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-++Microsoft.Extensions.Logging.Generators
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-++Microsoft.NET.Sdk.Razor.SourceGenerators
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
-++System.Text.Json.SourceGeneration
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.22\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 ++Microsoft.AspNetCore.App
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\microsoft.aspnetcore.app
 ++Microsoft.NETCore.App
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\microsoft.netcore.app
-++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:>264
-++Microsoft.EntityFrameworkCore.Tools (6.0.2)
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:>266
+++Microsoft.EntityFrameworkCore.SqlServer (3.1.22)
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:>479
+++Microsoft.EntityFrameworkCore.Tools (3.1.22)
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:>480
 ++site.css
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\wwwroot\css\site.css
 ++site.js
@@ -231,16 +234,5 @@ i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047c
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 ++bootstrap.esm.min.js.map
 i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-++Startup.cs
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\startup.cs
-++Genre.cs
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\models\genre.cs
-++MovieController.cs
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\controllers\moviecontroller.cs
-++NewFolder
-++Movies
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\views\movies\
-++Edit.cshtml
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\views\movies\edit.cshtml
-++Delete.cshtml
-i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\views\movies\delete.cshtml
+++Movie
+i:{3f6640b8-6357-4c16-bbe1-1746cebade13}:c:\users\natha\documents\github\it3047cassignments\assignment1\ch4ex1movielist\movielist\views\movie\
