@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿// Nathan Wick
+
+using System.Collections.Generic;
 
 namespace GuitarShop.Models
 {
