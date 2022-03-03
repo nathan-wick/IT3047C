@@ -8,16 +8,16 @@
     <div class="col-sm-2">
             <a asp-controller="Product" asp-action="List" asp-route-id="All" 
                 class="list-group-item 
-                @(ViewBag.SelectedCategoryName == "All" ? "active" : "")">
+                @(ViewBag.SelectedCategoryName == "All" ? "active" : "CheckActiveCategory()")">
                 All
             </a>
 
-            @foreach (Category c in ViewBag.Categories)
+            @foreach (Category c in @Model.Categories)
             {
 
                     <a asp-controller="Product" asp-action="List" asp-route-id="@c.Name" 
                        class="list-group-item
-                             @(ViewBag.SelectedCategoryName == c.Name ? "active" : "")">
+                             @(ViewBag.SelectedCategoryName == c.Name ? "active" : "CheckActiveCategory()")">
                         @c.Name
                     </a>
 
@@ -34,7 +34,7 @@
                     <th></th>
             </thead>
             <tbody>
-                @foreach (var product in Model)
+                @foreach (var product in @Model.Products)
                 {
                     <tr>
                         <td>@product.Name</td>
