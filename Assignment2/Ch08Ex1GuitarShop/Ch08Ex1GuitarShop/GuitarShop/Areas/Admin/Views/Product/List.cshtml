@@ -16,7 +16,7 @@
             {
                 <a asp-action="List" asp-route-id="@c.Name"
                    class="list-group-item
-                         @(ViewBag.SelectedCategoryName == c.Name ? "active" : "CheckActiveCategory()")">
+                         @Model.CheckActiveCategory(c.Name)">
                     @c.Name
                 </a>
             }
